@@ -1,9 +1,12 @@
-import makeWASocket, { 
-  DisconnectReason, 
+import pino from 'pino'
+import * as baileys from '@whiskeysockets/baileys'
+const {
+  default: makeWASocket,
+  DisconnectReason,
   useMultiFileAuthState,
   makeCacheableSignalKeyStore,
   fetchLatestBaileysVersion
-} from '@whiskeysockets/baileys';
+} = baileys
 import { Client } from 'ssh2';
 import P from 'pino';
 import qrcode from 'qrcode-terminal';

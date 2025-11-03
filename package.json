@@ -1,0 +1,20 @@
+{
+  "name": "pterodactyl-whatsapp-installer",
+  "version": "1.0.0",
+  "description": "WhatsApp bot for automated Pterodactyl Panel installation via SSH",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": ["whatsapp", "pterodactyl", "ssh", "automation"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.8",
+    "ssh2": "^1.15.0",
+    "dotenv": "^16.4.5",
+    "pino": "^9.0.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}

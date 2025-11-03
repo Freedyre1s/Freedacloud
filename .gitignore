@@ -137,3 +137,37 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# env & secrets
+.env
+*.env
+.env.*.local
+
+# whatsapp session
+wa-auth/
+auth_info/
+session/
+*.store.json
+
+# keys
+*.pem
+*.ppk
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+keys/
+
+# logs & tmp
+logs/
+*.log
+tmp/
+*.tmp
+
+# node
+node_modules/
+dist/
+coverage/
+
+# misc
+.DS_Store
